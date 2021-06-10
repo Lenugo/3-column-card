@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 :root {
 	--bright-orange: hsl(31, 77%, 52%);
@@ -6,6 +7,7 @@
 	--very-dark-cyan: hsl(179, 100%, 13%);
 	--transparent-white: hsla(0, 0%, 100%, 0.75);
 	--very-light-gray: hsl(0, 0%, 95%);
+	--padings-cards: 36px;
 }
 
 * {
@@ -19,30 +21,40 @@
 .cards-container {
 	padding: 26px;
 	min-width: 375px;
+	width: min-content;
+	margin: 56px auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .card__sedans {
 	background-color: var(--bright-orange);
-	padding: 30px;
-	height: 30vh;
+	padding: var(--padings-cards);
 }
 
 .card__suvs {
 	background-color: var(--dark-cyan);
+	padding: var(--padings-cards);
 }
 
 .card__luxury {
 	background-color: var(--very-dark-cyan);
+	padding: var(--padings-cards);
 }
 
 .cards--title {
 	text-transform: uppercase;
 	color: var(--very-light-gray);
-	font-size: large;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 38px;
+	margin: 26px auto;
 }
 
 .cards--paragraph {
 	color: var(--transparent-white);
+	width: 236px;
+	line-height: 26px;
+	margin-bottom: 10px;
 }
 
 .cards--btn {
@@ -62,7 +74,4 @@
 
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } 
-    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-    font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
     */
