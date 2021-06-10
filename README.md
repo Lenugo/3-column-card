@@ -10,7 +10,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
 -   [Author](#author)
 
@@ -45,6 +44,10 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 -   Mobile-first workflow
+
+### Continued development
+
+I want to continue doing exercises in frontend mentor, when you encourage them you see them very easy to complete but once the emparts you realize that every project as simple as it seems has its complexity that makes you improve the skills to be able to resolve the request.
 
 # Author
 
