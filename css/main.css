@@ -16,6 +16,50 @@
 	font-size: 15px;
 }
 
+.cards-container {
+	padding: 26px;
+	min-width: 375px;
+}
+
+.card__sedans {
+	background-color: var(--bright-orange);
+	padding: 30px;
+	height: 30vh;
+}
+
+.card__suvs {
+	background-color: var(--dark-cyan);
+}
+
+.card__luxury {
+	background-color: var(--very-dark-cyan);
+}
+
+.cards--title {
+	text-transform: uppercase;
+	color: var(--very-light-gray);
+	font-size: large;
+}
+
+.cards--paragraph {
+	color: var(--transparent-white);
+}
+
+.cards--btn {
+	padding: 16px;
+	width: 150px;
+	background-color: var(--very-light-gray);
+	text-transform: capitalize;
+	border: 0;
+	border-radius: 26px;
+	-webkit-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	margin: 16px auto;
+	cursor: pointer;
+}
+
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } 
     @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
