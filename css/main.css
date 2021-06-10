@@ -8,6 +8,7 @@
 	--transparent-white: hsla(0, 0%, 100%, 0.75);
 	--very-light-gray: hsl(0, 0%, 95%);
 	--padings-cards: 36px;
+	--border-radius-cards-container: 3px;
 }
 
 * {
@@ -30,6 +31,8 @@
 .card__sedans {
 	background-color: var(--bright-orange);
 	padding: var(--padings-cards);
+	border-top-left-radius: var(--border-radius-cards-container);
+	border-top-right-radius: var(--border-radius-cards-container);
 }
 
 .card__suvs {
@@ -40,6 +43,8 @@
 .card__luxury {
 	background-color: var(--very-dark-cyan);
 	padding: var(--padings-cards);
+	border-bottom-left-radius: var(--border-radius-cards-container);
+	border-bottom-right-radius: var(--border-radius-cards-container);
 }
 
 .cards--title {
@@ -79,6 +84,7 @@
 .btn-suvs {
 	color: var(--dark-cyan);
 }
+
 .btn-luxury {
 	color: var(--very-dark-cyan);
 }
@@ -100,5 +106,20 @@
 		justify-content: center;
 		padding: 250px 0 10px 0;
 		max-width: 1440px;
+	}
+
+	.card__sedans {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: var(--border-radius-cards-container);
+	}
+
+	.card__luxury {
+		border-bottom-left-radius: 0;
+		border-top-right-radius: var(--border-radius-cards-container);
+	}
+
+	.cards--paragraph {
+		width: 211px;
+		margin-bottom: 50px;
 	}
 }
