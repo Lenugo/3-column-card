@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-## Mobile
+## Mobile: 375px
 
 ![screenshot-mobile](./images/screenshot-mobile.png)
 
-## Desktop
+## Desktop: 1440px
 
 ![screenshot-desktop](./images/screenshot-desktop.png)
 
