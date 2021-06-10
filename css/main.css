@@ -19,7 +19,7 @@
 }
 
 .cards-container {
-	padding: 26px;
+	padding: 2em;
 	min-width: 375px;
 	width: min-content;
 	margin: 56px auto;
@@ -72,6 +72,33 @@
 	cursor: pointer;
 }
 
-/* .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); } 
-    */
+.btn-sedans {
+	color: var(--bright-orange);
+}
+
+.btn-suvs {
+	color: var(--dark-cyan);
+}
+.btn-luxury {
+	color: var(--very-dark-cyan);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 800px) {
+	.cards-container {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 0 auto;
+		justify-content: center;
+		padding: 250px 0 10px 0;
+		max-width: 1440px;
+	}
+}
