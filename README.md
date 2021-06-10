@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-cards-component-workflow-mobile-first-using-flexbox-fha8r8KBp)
+-   Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-cards-component-workflow-mobile-first-using-flexbox-fha8r8KBp)
 -   Live Site URL: [live site with URL](https://lenugo.github.io/3-column-card/)
 
 ## My process
